@@ -1,0 +1,150 @@
+body{
+    background: url(bckgd.jpg) no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+
+#title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #28334AFF;
+    font-size: 2.75em;
+    margin-bottom: 8px;
+}
+
+#description{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #28334AFF;
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top: 2%;
+}
+
+.container hr{
+    width: 50%;
+    background-color: #F65058ff;
+    border: none;
+    height: 2px;
+}
+
+#survey-form{
+    background: rgba(255, 127, 80, 0.637);
+    padding: 2.5rem;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+}
+
+form label{
+    font-size: 1.3em;
+    color: #28334AFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.3em;
+    color: #28334AFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+form input{
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    border-radius: 0.25rem;
+    border: #28334AFF solid 1.5px;
+    background: rgba(230, 179, 159, 0.781);
+}
+
+input[type=text]:focus, [type=email]:focus{
+    background: rgb(82, 91, 110, 0.25);
+}
+
+.radio input{
+    display: inline-block;
+    width: 10%;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.input-checkbox{
+    display: inline-block;
+    width: 10%;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.input-checkbox input[type="checkbox"]{
+    margin: 7px 7px 7px 7px;
+}
+
+.radio input[type="radio"]{
+    margin: 7px 7px 7px 7px;
+  }
+
+.radio label{
+    font-size: 1.1em;
+}
+
+.input-checkbox label{
+    font-size: 1.1em;
+}
+
+select{
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: 14px;
+    border-radius: 0.25rem;
+    border: #28334AFF solid 2px;
+    background: rgba(230, 179, 159, 0.781);
+}
+
+.check label{
+    line-height: 2em;
+}
+
+textarea{
+    width: 99%;
+    height: 15em;
+    border: #28334AFF solid 2px;
+    background: rgba(230, 179, 159, 0.781);
+    color: #28334AFF;
+    border-radius: 0.25rem;
+    font-size: 1.25em;
+}
+
+button{
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 0.25rem;
+    border: rgb(248, 56, 66) solid 2px;
+    background-color: rgb(248, 56, 66);
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
